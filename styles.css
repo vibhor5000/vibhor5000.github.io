@@ -45,7 +45,7 @@ form div.form-action-buttons{
 
 a{
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: bold, underline;
     color: #0000ee;
     margin-right: 4px;
 }
