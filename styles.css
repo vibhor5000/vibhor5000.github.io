@@ -1,18 +1,18 @@
 body > table{
-    width: 80%;
+    width: 65%;
 }
 
 table{
     border-collapse: collapse;
 }
 table.list{
-    width:100%;
+    width:90%;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 5px;
 }
 tr:nth-child(even),table.list thead>tr {
     background-color: #dddddd;
@@ -20,7 +20,7 @@ tr:nth-child(even),table.list thead>tr {
 
 input[type=text], input[type=number] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 15px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -51,7 +51,7 @@ a{
 }
 
 label.validation-error{
-    color:   red;
+    color:   green;
     margin-left: 5px;
 }
 
