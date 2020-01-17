@@ -21,7 +21,7 @@ function readFormData() {
 }
 
 function insertNewRecord(data) {
-    var table = document.getElementById("employeeList").getElementsByTagName('tbody')[0];
+    var table = document.getElementById("contenderlist").getElementsByTagName('tbody')[0];
     var newRow = table.insertRow(table.length);
     cell1 = newRow.insertCell(0);
     cell1.innerHTML = data.fullName;
@@ -61,7 +61,7 @@ function updateRecord(formData) {
 function onDelete(td) {
     if (confirm('Are you sure to delete this record ?')) {
         row = td.parentElement.parentElement;
-        document.getElementById("employeeList").deleteRow(row.rowIndex);
+        document.getElementById("contenderlist").deleteRow(row.rowIndex);
         resetForm();
     }
 }
